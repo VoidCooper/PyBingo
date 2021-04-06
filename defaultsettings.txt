@@ -1,0 +1,47 @@
+# This setting file is used when settings.txt is missing
+
+# How many boards shougld be generated
+Count=5
+
+# Ignored Infoes use space as a delimiter eg. numbers
+Ignored=
+
+# Use the same data entries as in the last run
+# Does not work if the Ignored changes between runs!
+UseLastRun=0
+
+# Title for the board
+Title=PYTHON BINGO
+
+# Where is the data at?
+DataLocation=exampledata.csv
+
+# Where is the center image at?
+CenterImage=
+
+# Draw settings
+ImageWidth=1250
+ImageHeight=750
+PaddingX=100
+PaddingY=100
+OffsetX=50
+OffsetY=50
+
+BoxSizeX=250
+BoxSizeY=150
+
+BackGroundColorR=255
+BackGroundColorG=255
+BackGroundColorB=255
+
+# Font can be any truetype font, needs to be next to main file
+Font=
+FontSize=30
+FontColorR=0
+FontColorG=0
+FontColorB=0
+
+LineWidth=3
+LineColorR=0
+LineColorG=0
+LineColorB=0
