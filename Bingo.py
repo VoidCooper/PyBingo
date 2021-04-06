@@ -1,6 +1,7 @@
 import csv
 import random
 import time
+import os
 from os import path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -165,8 +166,12 @@ def main():
         runnum += 1
 
     identifier = int(time.time())
+
+    if not path.exists('generated'):
+        os.mkdir('generated')
+
     for x in range(0, get_setting_value(settings, 'Count')):
         draw_board(settings, reshuffle_board(randomentries)).save('generated/' + str(identifier) + 'board' + str(x) + '.jpg', 'JPEG')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
