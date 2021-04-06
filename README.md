@@ -23,5 +23,6 @@ For better looking boards:
 Attentions/maybe going to be improved:
 - All the required files must be in the working directory
   - centerimage, settings and font
+- If no font is present "better than nothing" font is used, which size cannot be changed
 
 All the generated boards are saved into generated/ with given names {epoch}board{x}.jpg
